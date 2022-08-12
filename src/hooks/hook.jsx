@@ -2,7 +2,7 @@ import { useState } from "react"
 import axios from "axios"
 
 const useAxios = () => {
-  const BASE_URL = "http://localhost:1337/api"
+  const BASE_URL = process.env.NODE_ENV === "development" ? "http://localhost:1337/api" : "https://doers-centa-strapi.herokuapp.com/api"
   const [error, setError] = useState(null)
   const [isPending, setIsPending] = useState(false)
 
