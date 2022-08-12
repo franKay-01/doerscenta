@@ -46,7 +46,7 @@ code {
 }
 
 .what-we-do-background{
-  height: 50rem;
+  height: 55rem;
   background-image: url('./assets/tutor.jpg');
 }
 
@@ -75,4 +75,8 @@ code {
 
 .rounded-lg{
   border-radius: 3.5rem !important;
+}
+
+.padded{
+  padding: 3px !important;
 }

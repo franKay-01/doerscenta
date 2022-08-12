@@ -2,7 +2,8 @@ import Frontier from '../assets/frontier.png'
 import AfricanAmerican from '../assets/african_american.jpg'
 import Scientist from '../assets/scientist.jpg'
 import FemaleFreelancer from '../assets/female_freelance.jpg'
-
+import JoinFormCard from './join_form'
+import ContactCard from './contact_form'
 export default function Banner() {
 
   return (
@@ -19,13 +20,8 @@ export default function Banner() {
 
           </div>
           <div className="flex space-x-4">
-            <button className="text-white bg-sky-500 h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md">
-
-              <p className="font-bold text-lg lg:text-lg">Get Early Access</p>
-            </button>
-            <button className="text-sky-500 bg-transparent h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md border-2 border-sky-500">
-              <p className="font-bold text-lg lg:text-lg">Contact Us</p>
-            </button>
+            <JoinFormCard />
+            <ContactCard />
           </div>
         </div>
 

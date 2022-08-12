@@ -2,17 +2,17 @@ import Doctor from '../assets/doctor.jpg'
 import FemaleHacker from '../assets/female_hacker.jpg'
 import World_2 from '../assets/world_2.jpeg'
 import CoreValues from '../assets/core_values.gif'
+import ContactCard from './contact_form'
+import JoinFormCard from './join_form'
 
 export default function WhatItMeans() {
   return (
     <>
-      <div className="container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 padded">
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Doers, it means…</h3>
           <h4 className="mt-4 text-2xl">the exposure, jobs, capital, mentorship, right sponsors, and talent you need are always within reach</h4>
-          <button className="text-white bg-sky-500 h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md mt-4">
-            <p className="font-bold text-lg lg:text-lg">Get Early Access</p>
-          </button>
+          <ContactCard />
         </div>
         <div>
           <img className="rounded-lg what-it-means-img" src={Doctor} />
@@ -25,18 +25,14 @@ export default function WhatItMeans() {
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Investors & Accelerators, it means…</h3>
           <h4 className="mt-4 text-2xl">you can get access to vetted and verified high-quality startups, unlock access to the right exposure, show off your key assets, investment portfolio and thematic areas.</h4>
-          <button className="text-white bg-sky-500 h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md mt-4">
-            <p className="font-bold text-lg lg:text-lg">Get Early Access</p>
-          </button>
+          <ContactCard />
         </div>
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-4">
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Partners, it means…</h3>
           <h4 className="mt-4 text-2xl">you can reach every doer who needs opportunity</h4>
-          <button className="text-white bg-sky-500 h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md mt-4">
-            <p className="font-bold text-lg lg:text-lg">Get Early Access</p>
-          </button>
+          <ContactCard />
         </div>
         <div>
           <img className="rounded-lg what-it-means-img" src={World_2} />
@@ -58,9 +54,7 @@ export default function WhatItMeans() {
             looking for people like you with a global perspective, a deep interest in technology, innovation ecosystems,
             amorphous challenges, and an appetite for growth.
           </p>
-          <button className="text-white bg-sky-500 h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md mt-4">
-            <p className="font-bold text-lg lg:text-lg">Join the Team</p>
-          </button>
+          <JoinFormCard/>
         </div>
 
       </div>

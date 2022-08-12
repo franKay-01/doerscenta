@@ -23,12 +23,12 @@ export default function WhoWeAre() {
         <div className="bg-gradient-to-r from-gray-500 h-full">
           <div className="container">
             <div className="mt-48">
-              <h1 className="text-white font-bold text-6xl">Who we do</h1>
+              <h1 className="text-white font-bold text-6xl">What we do</h1>
               <h3 className="text-white font-bold text-2xl mb-4 italic">A new frontier of collaboration and growth</h3>
               <p className="text-white text-lg w-2/5">
                 DoersCenta is a community built exclusively for doers, to support our collective journey towards advancing discovery, and solving the world’s most pressing challenges—regardless of race, gender, culture or geography. We aspire to do this by connecting people, capital and ideas to help add value to the community we serve, through a trusted, flexible, and transparent experience.
-                Specifically, by connecting people to opportunity and capital, we are committed to building a lifelong world-class community of doers, where people who are mission-driven, passionate, thoughtful and creative, connect, learn, share, engage, explore ways to collaborate, unlock value, and provide a safe haven for honesty and vulnerability.
-                This community is founded on a culture of optimizing for learning and growth, as we strive to continually solve, build and grow as individuals and as a team.
+                <br/><br/>Specifically, by connecting people to opportunity and capital, we are committed to building a lifelong world-class community of doers, where people who are mission-driven, passionate, thoughtful and creative, connect, learn, share, engage, explore ways to collaborate, unlock value, and provide a safe haven for honesty and vulnerability.
+                <br/><br/>This community is founded on a culture of optimizing for learning and growth, as we strive to continually solve, build and grow as individuals and as a team.
               </p>
             </div>
           </div>
