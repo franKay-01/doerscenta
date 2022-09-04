@@ -54,7 +54,7 @@ export default function ContactCard() {
         onClick={() => setShowContact(true)}
         className="text-sky-500 bg-transparent border-2 border-sky-500 hover:bg-sky-500 hover:text-white h-12 relative flex justify-center items-center p-4 space-x-2 rounded-md mt-4"
       >
-        <p className="font-bold text-lg lg:text-lg">Get Early Access</p>
+        <p className="font-bold text-lg lg:text-lg">Contact Us</p>
       </button>
       {showContact ? (
         <>
@@ -78,7 +78,7 @@ export default function ContactCard() {
                       d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                     />
                   </svg>
-                  <p className="m-auto">Get Early Access</p>
+                  <p className="ml-2 text-xl text-center">Contact Us</p>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowContact(false)}
@@ -91,7 +91,9 @@ export default function ContactCard() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="text-red-500">{error}</p>
-
+                  <p className="text-center font-normal">
+                    For more information about DoersCenta, fill out the form below
+                  </p>
                   <div className="mt-4">
                     <div>
                       <input
@@ -111,7 +113,7 @@ export default function ContactCard() {
                         onChange={changeMessage}
                         rows="4"
                         class="block w-full px-4 py-2 mt-2 text-black border rounded-md focus:ring-1 focus:ring-blue-600 "
-                        placeholder="Message..."
+                        placeholder="* Message..."
                       ></textarea>
                     </div>
                   </div>

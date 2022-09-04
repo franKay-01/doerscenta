@@ -2,12 +2,14 @@
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Logo from '../assets/logo.png'
+import GetInTouchCard from './get_in_touch'
+import {Link} from 'react-scroll'
 
 const navigation = [
-  { name: 'Who we are', href: '#', current: false },
-  { name: 'What we are', href: '#', current: false },
-  { name: 'Why we do it', href: '#', current: false },
-  { name: 'Careers', href: '#', current: false },
+  { name: 'Who we are', href: 'who', current: false },
+  { name: 'What we are', href: 'what', current: false },
+  { name: 'Why we do it', href: 'why', current: false },
+  { name: 'Careers', href: 'career', current: false },
 ]
 
 function classNames(...classes) {
@@ -41,33 +43,31 @@ export default function Header() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
+                      <Link to={item.href} spy={true} smooth={true}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-sky-900 hover:text-white cursor-pointer ',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
               </div>
               <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <a
+                {/* <a
                   key={'in-touch'}
                   href={'#'}
                   className={classNames(
-                    'text-black hover:bg-gray-700 hover:text-white',
+                    'text-black hover:bg-sky-900 hover:text-white',
                     'px-3 py-2 rounded-md text-sm font-medium'
                   )}
                   aria-current={'page'}
                 >
                   Get In Touch
-                </a>
+                </a> */}
+                <GetInTouchCard/>
               </div>
             </div>
           </div>

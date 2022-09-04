@@ -2,8 +2,8 @@ export default function WhoWeAre() {
 
   return (
     <>
-      <div className="bg-cover bg-no-repeat who-we-are-background mt-36">
-        <div className="bg-gradient-to-r from-gray-500 h-full">
+      <div id="who" className="bg-cover bg-no-repeat who-we-are-background mt-36">
+        <div className="bg-gradient-to-r from-black h-full">
           <div className="container">
             <div className="mt-48">
               <h1 className="text-white font-bold text-6xl">Who we are</h1>
@@ -19,8 +19,8 @@ export default function WhoWeAre() {
           </div>
         </div>
       </div>
-      <div className="bg-cover bg-no-repeat what-we-do-background">
-        <div className="bg-gradient-to-r from-gray-500 h-full">
+      <div id="what" className="bg-cover bg-no-repeat what-we-do-background">
+        <div className="bg-gradient-to-r from-black h-full">
           <div className="container">
             <div className="mt-48">
               <h1 className="text-white font-bold text-6xl">What we do</h1>
@@ -34,8 +34,8 @@ export default function WhoWeAre() {
           </div>
         </div>
       </div>
-      <div className="bg-cover bg-no-repeat why-we-do-background">
-        <div className="bg-gradient-to-r from-gray-500 h-full">
+      <div id="why" className="bg-cover bg-no-repeat why-we-do-background">
+        <div className="bg-gradient-to-r from-black h-full">
           <div className="container">
             <div className="mt-48">
               <h1 className="text-white font-bold text-6xl">Why we do it</h1>

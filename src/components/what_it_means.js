@@ -4,6 +4,7 @@ import World_2 from '../assets/world_2.jpeg'
 import CoreValues from '../assets/core_values.gif'
 import ContactCard from './contact_form'
 import JoinFormCard from './join_form'
+import GetEarlyAccess from './get_early_access'
 
 export default function WhatItMeans() {
   return (
@@ -12,7 +13,7 @@ export default function WhatItMeans() {
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Doers, it means…</h3>
           <h4 className="mt-4 text-2xl">the exposure, jobs, capital, mentorship, right sponsors, and talent you need are always within reach</h4>
-          <ContactCard />
+          <GetEarlyAccess />
         </div>
         <div>
           <img className="rounded-lg what-it-means-img" src={Doctor} />
@@ -25,14 +26,14 @@ export default function WhatItMeans() {
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Investors & Accelerators, it means…</h3>
           <h4 className="mt-4 text-2xl">you can get access to vetted and verified high-quality startups, unlock access to the right exposure, show off your key assets, investment portfolio and thematic areas.</h4>
-          <ContactCard />
+          <GetEarlyAccess />
         </div>
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-4">
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Partners, it means…</h3>
           <h4 className="mt-4 text-2xl">you can reach every doer who needs opportunity</h4>
-          <ContactCard />
+          <GetEarlyAccess />
         </div>
         <div>
           <img className="rounded-lg what-it-means-img" src={World_2} />
@@ -44,7 +45,7 @@ export default function WhatItMeans() {
         </h2>
         <h3 className="text-2xl mt-6">Welcome to DoersCenta, <span className="font-bold italic">the new frontier of empowering, supportive, and inclusive collaboration and growth...!</span></h3>
       </div>
-      <div className="mx-auto bg-gray-200 rounded-xl shadow border p-8 mt-11">
+      <div id="career" className="mx-auto bg-gray-200 rounded-xl shadow border p-8 mt-11">
         <div className="container">
           <p className="text-3xl text-gray-700 font-bold mb-5">
             Big challenges require big minds
@@ -62,8 +63,6 @@ export default function WhatItMeans() {
         <div>
           <img className="rounded-lg" src={CoreValues} />
         </div>
-        <div className="hidden md:block lg:block vl absolute"></div>
-
         <div className="m-11">
           <h3 className="font-bold text-4xl">Our core values</h3>
           <div className="grid mt-6">

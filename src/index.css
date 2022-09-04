@@ -41,7 +41,7 @@ code {
 }
 
 .who-we-are-background{
-  height: 50rem;
+  height: 45rem;
   background-image: url('./assets/unlock.jpg');
 }
 
@@ -55,13 +55,17 @@ code {
 }
 
 .why-we-do-background{
-  height: 50rem;
+  height: 55rem;
   background-image: url('./assets/world.jpg');
 }
 
 .what-it-means-img{
   height: 25rem;
   width: 100%;
+}
+
+.forms{
+  width: 50rem;
 }
 
 .min-height-img{
