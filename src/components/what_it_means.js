@@ -32,7 +32,7 @@ export default function WhatItMeans() {
       <div className="container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-4">
         <div className="m-11">
           <h3 className="font-bold text-4xl">For Partners, it means…</h3>
-          <h4 className="mt-4 text-2xl">you can reach every doer who needs opportunity</h4>
+          <h4 className="mt-4 text-2xl">We envision a world where the most talented people have access to support network, where innovation is the norm, and where doers actively lead the development of solutions. This is the opportunity in front of us!</h4>
           <GetEarlyAccess />
         </div>
         <div>
@@ -61,21 +61,48 @@ export default function WhatItMeans() {
       </div>
       <div className="container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mt-4 ">
         <div>
-          <img className="rounded-lg" src={CoreValues} />
+          <h3 className="font-bold text-4xl">Do work that matters</h3>
+
+          <p className="text-xl mt-2">
+            It’s still the beginning. We’re working hard to find new and better ways to help doers succeed.
+            To do this, we’re rewriting much of the fundamental infrastructure that underpins how support
+            networks thrive in the global economy—and we need your help. We&#39;re looking for people like
+            you with a global perspective, a deep interest in technology, innovation ecosystems, amorphous
+            challenges, and an appetite for growth. You&#39;ll work with people who genuinely care about your
+            success and receive the support you need to reach your goals.
+            <GetEarlyAccess />
+
+          </p>
+
+          <h3 className="font-bold text-4xl mt-4">Our culture</h3>
+
+          <p className="text-xl mt-2">
+            More than a company, we see ourselves as a group of peers. Our culture is characterized by a
+            sense of belonging, mindfulness, and respect for one another—in fact, it’s key to our success.
+          </p>
+
+          <h3 className="font-bold text-4xl mt-4">Our promise</h3>
+
+          <p className="text-xl mt-2">
+            DoersCenta places a premium on diversity. We seek to create an environment where everyone
+            feels equally respected and valued, regardless of their gender identity or expression, sexual
+            orientation, religion, race, age, citizenship, or any other characteristic that makes them unique.
+            Here, your voice is always heard, your opinion matters, and your work is valued.
+          </p>
         </div>
-        <div className="m-11">
+        <div>
           <h3 className="font-bold text-4xl">Our core values</h3>
           <div className="grid mt-6">
-            <p className="mb-4">
+            <p className="mb-4 text-xl">
               <span className="font-bold">Purposefulness:</span> We are designing intuitive, inclusive, impactful, and sustainable products for doers.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-xl">
               <span className="font-bold">Pragmatism:</span> We are upending the status quo, while making sure our work benefits society.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-xl">
               <span className="font-bold">Simplicity:</span> We are building tools that allow doers to focus on what really matters.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-xl">
               <span className="font-bold">Team work:</span> We are reinventing “support networks” as a team and taking pride in our work.
             </p>
           </div>

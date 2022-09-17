@@ -14,7 +14,8 @@ export default function Banner() {
             <p className="text-4xl mt-6 lg:text-7xl text-black font-bold">Fueling amazing problem <br className="hidden md:block lg:block"/>solvers.</p>
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <p className="text-black text-2xl mt-6 mb-8 lg:text-2xl lg:w-9/12 font-normal">
-                We connect doers with a lifelong world-class community to advance discovery, and solve global intractable problems.
+              Enabling doers to advance discovery, and solve global intractable problems by<br className="hidden md:block lg:block"/>
+              connecting them with a lifelong support network.
               </p>
             </div>
 
